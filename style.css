@@ -13,7 +13,7 @@ h2,
 h3,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
@@ -23,6 +23,18 @@ p {
 a,
 i {
   text-decoration: none;
+}
+
+.footer_link {
+  color: white;
+}
+
+.footer_link:hover {
+  color: darkgrey;
+}
+
+.addresses {
+  font-size: small;
 }
 
 .logotext {

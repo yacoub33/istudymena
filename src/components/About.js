@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </div>
 
-        <div>
+        <div className="hidden md:block">
           <img
             src={mobileAppImg}
             className="rounded-md mt-20 object-cover"

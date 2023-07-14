@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import bgImage from "../assets/bg.jpg";
 import { MdMoneyOff } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";

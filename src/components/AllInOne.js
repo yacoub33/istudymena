@@ -5,7 +5,7 @@ const AllInOne = () => {
   return (
     <div name="platforms" className="w-full my-32">
       <div className="max-w-[1240px] mx-auto px-2">
-        <h2 className="text-5xl font-bold text-center mb-10">All In One</h2>
+        <h2 className="text-3xl font-bold text-center mb-10">All In One</h2>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           <div className="flex">

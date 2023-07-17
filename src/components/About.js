@@ -3,13 +3,13 @@ import mobileAppImg from "../assets/mobile-app.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full my-32">
+    <div name="about" className="w-full my-32 px-2">
       <div className="max-w-[1240px] mx-auto">
         <div className="text-center">
-          <h2 className="text-5xl font-bold">
+          <h2 className="text-3xl font-bold">
             Trusted by students across the world
           </h2>
-          <p className="text-3xl py-6 text-gray-500">
+          <p className="text-xl py-6 text-gray-500">
             Looking for the perfect agency to guide you through your educational
             journey? Look no further! Our agency is a leading choice for
             students around the globe, and here's why:

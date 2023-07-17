@@ -3,7 +3,7 @@ import React from "react";
 
 const AllInOne = () => {
   return (
-    <div name="platforms" className="w-full my-32">
+    <div name="platforms" className="w-full my-32 px-2">
       <div className="max-w-[1240px] mx-auto px-2">
         <h2 className="text-3xl font-bold text-center mb-10">All In One</h2>
 

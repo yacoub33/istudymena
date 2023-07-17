@@ -60,7 +60,7 @@ const Partners = () => {
     };
   }, []);
   return (
-    <div name="partners" className="w-full my-32">
+    <div name="partners" className="w-full my-32 px-2">
       <div className="max-w-[1240px] mx-auto px-2">
         <h2 className="font-bold md:text-xl p-4 text-center">
           Some of the Universities we work with

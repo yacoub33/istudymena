@@ -45,18 +45,50 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul className={!nav ? "hidden" : "absolute bg-zinc-100 w-full px-8 py-8"}>
-        <Link to="home" smooth={true} offset={-200} duration={500}>
-          <li className="border-b-2 border-zinc-200 w-full mb-5">Home</li>
+      <ul
+        className={
+          !nav
+            ? "hidden"
+            : "absolute bg-zinc-100/90 w-full h-screen px-8 py-8 text-center"
+        }
+      >
+        <Link
+          to="home"
+          smooth={true}
+          offset={-200}
+          duration={500}
+          onClick={handleClose}
+        >
+          <li className="w-full mb-5 text-3xl uppercase font-bold">Home</li>
         </Link>
-        <Link to="about" smooth={true} offset={-200} duration={500}>
-          <li className="border-b-2 border-zinc-200 w-full mb-5">About</li>
+        <Link
+          to="about"
+          smooth={true}
+          offset={-200}
+          duration={500}
+          onClick={handleClose}
+        >
+          <li className="w-full mb-5 text-3xl uppercase font-bold ">About</li>
         </Link>
-        <Link to="partners" smooth={true} offset={-200} duration={500}>
-          <li className="border-b-2 border-zinc-200 w-full mb-5">Partners</li>
+        <Link
+          to="partners"
+          smooth={true}
+          offset={-200}
+          duration={500}
+          onClick={handleClose}
+        >
+          <li className="w-full mb-5 text-3xl uppercase font-bold ">
+            Partners
+          </li>
         </Link>
-        <Link to="testimonials" smooth={true} offset={-200} duration={500}>
-          <li className="border-b-2 border-zinc-200 w-full mb-5">
+        <Link
+          to="testimonials"
+          smooth={true}
+          offset={-200}
+          duration={500}
+          onClick={handleClose}
+        >
+          <li className="w-full mb-5 text-3xl uppercase font-bold">
             Testimonials
           </li>
         </Link>

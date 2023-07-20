@@ -4,22 +4,27 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="w-full mt-24 bg-blue-900 text-white py-y px-2">
-      <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
-        <a
-          href="https://www.facebook.com/profile.php?id=100063207070473"
-          target="_blank"
-        >
-          <FaFacebook className="text-white" />
-        </a>
-        <a
-          href="https://instagram.com/istudy_mena.uk?igshid=MzRlODBiNWFlZA=="
-          target="_blank"
-        >
-          <FaInstagram className="text-white" />
-        </a>
-        <a href="https://www.linkedin.com/company/istudy-mena/" target="_blank">
-          <FaLinkedin className="text-white" />
-        </a>
+      <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-white/50 text-xs">
+        <div className="flex justify-between sm:w-[300px] pt-4 text-2xl ">
+          <a
+            href="https://www.facebook.com/profile.php?id=100063207070473"
+            target="_blank"
+          >
+            <FaFacebook className="text-white" />
+          </a>
+          <a
+            href="https://instagram.com/istudy_mena.uk?igshid=MzRlODBiNWFlZA=="
+            target="_blank"
+          >
+            <FaInstagram className="text-white" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/istudy-mena/"
+            target="_blank"
+          >
+            <FaLinkedin className="text-white" />
+          </a>
+        </div>
       </div>
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-4 border-b-2 gap-4 border-gray-600 py-8 px-2">
         <div>

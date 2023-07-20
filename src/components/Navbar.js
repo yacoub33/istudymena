@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,15 +17,21 @@ const Navbar = () => {
           <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
             Home
           </li>
-          <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
-            About
-          </li>
-          <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
-            Partners
-          </li>
-          <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
-            Testimonials
-          </li>
+          <Link to="about" smooth={true} offset={-200} duration={500}>
+            <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
+              About
+            </li>
+          </Link>
+          <Link to="partners" smooth={true} offset={-200} duration={500}>
+            <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
+              Partners
+            </li>
+          </Link>
+          <Link to="testimonials" smooth={true} offset={-200} duration={500}>
+            <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
+              Testimonials
+            </li>
+          </Link>
         </ul>
 
         <div className="md:hidden mr-4" onClick={handleClick}>

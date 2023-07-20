@@ -10,10 +10,10 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24 bg-blue-900 text-gray-300 py-y px-2">
+    <div className="w-full mt-24 bg-blue-900 text-white py-y px-2">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-4 border-b-2 border-gray-600 py-8">
         <div>
-          <h6 className="font-bold uppercase pt-2">ADDRESSES</h6>
+          <h6 className="font-bold uppercase pt-2 ">ADDRESSES</h6>
           <ul>
             <li className="py-1">
               JORDAN – AMMAN 11191, QUEEN ZAIN ALSHARAF 4TH FLOOR
@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-bold uppercase pt-2">CONTACT</h6>
+          <h6 className="font-bold uppercase pt-2 ">CONTACT</h6>
           <ul>
             <li className="py-1">d.almuti@istudymena.com</li>
             <li className="py-1">+962 7968 785 34</li>
@@ -60,9 +60,24 @@ const Footer = () => {
           2023 Copyright © iStudy MENA. All rights reserved
         </p>
         <div className="flex justify-between sm:w-[300px] pt-4 text-2xl">
-          <FaFacebook className="text-white" />
-          <FaInstagram className="text-white" />
-          <FaLinkedin className="text-white" />
+          <a
+            href="https://www.facebook.com/profile.php?id=100063207070473"
+            target="_blank"
+          >
+            <FaFacebook className="text-white" />
+          </a>
+          <a
+            href="https://instagram.com/istudy_mena.uk?igshid=MzRlODBiNWFlZA=="
+            target="_blank"
+          >
+            <FaInstagram className="text-white" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/istudy-mena/"
+            target="_blank"
+          >
+            <FaLinkedin className="text-white" />
+          </a>
         </div>
       </div>
     </div>

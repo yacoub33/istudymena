@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Partners from "./components/Partners";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <AllInOne />
       <Partners />
+      <Testimonials />
       <Footer />
     </>
   );

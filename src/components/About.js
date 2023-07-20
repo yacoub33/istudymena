@@ -6,13 +6,13 @@ const About = () => {
     <div name="about" className="w-full my-32 px-2">
       <div className="max-w-[1240px] mx-auto">
         <div className="text-center">
-          <h2 className="text-3xl font-bold">
-            Trusted by students across the world
-          </h2>
+          <h2 className="text-3xl font-bold">iStudy MENA.</h2>
           <p className="text-xl py-6 text-gray-500">
             Looking for the perfect agency to guide you through your educational
-            journey? Look no further! Our agency is a leading choice for
-            students around the globe, and here's why:
+            journey? Look no further! Proudly one of the top educational
+            agencies in the Middle East and North Africa, ensuring high student
+            satisfaction. We support applications to study in the UK. Discover
+            our students' positive experiences on our page.
           </p>
         </div>
 
@@ -28,7 +28,7 @@ const About = () => {
             <p className="text-gray-400 mt-2">Partial Scholarships</p>
           </div>
           <div className="border py-8 rounded-xl shadow-xl bg-zinc-100/70">
-            <p className="text-6xl font-bold text-blue-800 ">20K+</p>
+            <p className="text-6xl font-bold text-blue-800 ">1K+</p>
             <p className="text-gray-400 mt-2">Students</p>
           </div>
         </div>

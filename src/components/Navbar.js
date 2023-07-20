@@ -14,9 +14,11 @@ const Navbar = () => {
           iStudy MENA.
         </h1>
         <ul className="hidden md:flex">
-          <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
-            Home
-          </li>
+          <Link to="home" smooth={true} offset={-200} duration={500}>
+            <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
+              Home
+            </li>
+          </Link>
           <Link to="about" smooth={true} offset={-200} duration={500}>
             <li className="mr-4 hover:cursor-pointer hover:text-blue-800">
               About
@@ -44,10 +46,20 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav ? "hidden" : "absolute bg-zinc-100 w-full px-8 py-8"}>
-        <li className="border-b-2 border-zinc-200 w-full mb-5">Home</li>
-        <li className="border-b-2 border-zinc-200 w-full mb-5">About</li>
-        <li className="border-b-2 border-zinc-200 w-full mb-5">Partners</li>
-        <li className="border-b-2 border-zinc-200 w-full mb-5">Testimonials</li>
+        <Link to="home" smooth={true} offset={-200} duration={500}>
+          <li className="border-b-2 border-zinc-200 w-full mb-5">Home</li>
+        </Link>
+        <Link to="about" smooth={true} offset={-200} duration={500}>
+          <li className="border-b-2 border-zinc-200 w-full mb-5">About</li>
+        </Link>
+        <Link to="partners" smooth={true} offset={-200} duration={500}>
+          <li className="border-b-2 border-zinc-200 w-full mb-5">Partners</li>
+        </Link>
+        <Link to="testimonials" smooth={true} offset={-200} duration={500}>
+          <li className="border-b-2 border-zinc-200 w-full mb-5">
+            Testimonials
+          </li>
+        </Link>
       </ul>
     </div>
   );

@@ -7,7 +7,7 @@ import { FaRegHandshake, FaPassport, FaMoneyCheckAlt } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90vh] bg-zinc-200">
+    <div name="home" className="w-full h-[90vh] bg-zinc-200">
       <div className="w-full h-[90vh] absolute bg-black/30"></div>
       <img src={bgImage} alt="/" className="w-full h-full object-cover" />
 

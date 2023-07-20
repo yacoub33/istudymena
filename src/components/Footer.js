@@ -65,8 +65,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-white">
-        <p className="py-4">
+      <div className="flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-white/50 text-xs">
+        <p className="py-2">
           2023 Copyright © iStudy MENA. All rights reserved
         </p>
       </div>

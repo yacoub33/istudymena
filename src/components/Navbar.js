@@ -59,7 +59,7 @@ const Navbar = () => {
           duration={500}
           onClick={handleClose}
         >
-          <li className="w-full mb-5 text-3xl uppercase font-bold">Home</li>
+          <li className="w-full mb-8 text-3xl uppercase font-bold">Home</li>
         </Link>
         <Link
           to="about"
@@ -68,7 +68,7 @@ const Navbar = () => {
           duration={500}
           onClick={handleClose}
         >
-          <li className="w-full mb-5 text-3xl uppercase font-bold ">About</li>
+          <li className="w-full mb-8 text-3xl uppercase font-bold ">About</li>
         </Link>
         <Link
           to="partners"
@@ -77,7 +77,7 @@ const Navbar = () => {
           duration={500}
           onClick={handleClose}
         >
-          <li className="w-full mb-5 text-3xl uppercase font-bold ">
+          <li className="w-full mb-8 text-3xl uppercase font-bold ">
             Partners
           </li>
         </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
           duration={500}
           onClick={handleClose}
         >
-          <li className="w-full mb-5 text-3xl uppercase font-bold">
+          <li className="w-full mb-8 text-3xl uppercase font-bold">
             Testimonials
           </li>
         </Link>

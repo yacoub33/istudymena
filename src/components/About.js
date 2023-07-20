@@ -7,7 +7,7 @@ const About = () => {
       <div className="max-w-[1240px] mx-auto">
         <div className="text-center">
           <h2 className="text-3xl font-bold">iStudy MENA.</h2>
-          <p className="text-xl py-6 text-gray-500">
+          <p className="text-lg py-6 text-gray-500">
             Looking for the perfect agency to guide you through your educational
             journey? Look no further! Proudly one of the top educational
             agencies in the Middle East and North Africa, ensuring high student
